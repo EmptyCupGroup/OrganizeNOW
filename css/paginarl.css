@@ -1,0 +1,118 @@
+.body {
+    background-image: linear-gradient(to right, rgb(135, 135, 232), rgb(63, 0, 255));
+    font-family: 'Open Sans', serif;
+  }
+
+.body2 {
+    background-image: linear-gradient(to right, rgb(63, 0, 255), rgb(135, 135, 232));
+    font-family: 'Open Sans', serif;
+  }
+
+.container {
+width: 50%;
+height: 325px;
+background-color: white;
+margin-left: 22%;
+margin-top: 15%;
+margin-bottom: 10%;
+padding: 20px 40px;
+border-radius: 10px;
+}
+
+.conttodo {
+    width: 100%;
+}
+
+.direita {
+    width: 50%;
+    float: right;
+}
+
+.esquerda {
+    width: 50%;
+    float: left;
+   
+}
+
+img {
+    width: 70%;
+    margin: 15%;
+    transform: translateX(-10%) translateY(-10%);
+    
+}
+
+.titulocriar {
+    font-weight: 800;
+    color: rgb(63, 0, 255);
+    text-align: center;
+    font-size: 33px;
+    transform: translateY(-40%);
+}
+
+input[type=submit] {
+    background-color: rgb(63, 0, 255);
+    color: white;
+    font-weight: bold;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translateX(-46%) translateY(-50%);
+}
+input[type=text], input[type=email], input[type=password], select {
+    background-color: rgb(204,204,204);
+    border-radius: 10px;
+    border: none;
+    padding: 2px 4px;
+    width: 100%;
+    height: 22.5px;
+    margin-top: 5%;
+    
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.alertbox {
+    padding: 10px;
+    width: 24%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    transform: translateY(-100%);
+    border-radius: 10px;
+}
+
+.errousu {
+    background-color: rgb(241, 53, 53);
+}
+
+.cadastrado {
+    background-color: rgb(85, 197, 75);
+}
+
+.japosc {
+   margin-left: 50%;
+   transform: translateX(-40%);
+}
+
+.japosc a {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.japosc a:hover {
+    color: rgb(63, 0, 255);
+}
+
+
